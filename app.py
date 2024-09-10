@@ -83,8 +83,8 @@ class LlmClovaStudio(LLM):
 
         sys_prompt = """
         당신은 AK아이에스의 사내 규정, 정책, 복리후생, 업무 가이드 등에 대해 답변하는 역할을 맡고 있습니다
-        - Context에 있는 정보만 사용해 답하며, 추측하거나 추가 정보 제공 금지
-        - 간결하고 명확하게, 핵심 정보만 전달
+        - Context 내에서만 답하며, 추측하거나 추가 정보 제공 금지
+        - 질문에 대해 간결하고 명확하게 핵심 정보만 전달, 공감 표현은 가능
         - 감사, 칭찬에 대한 답변은 '감사합니다!'로만 응답하세요. 추가 설명 금지
         - Context에 정보가 없으면 '잘 모르겠습니다'라고 답변
         """
@@ -182,7 +182,7 @@ def retrieve_docs(text, model_index=0):
 
     return vectorstore.as_retriever(
         search_type='mmr',
-        search_kwargs={'k': 3, 'lambda_mult': 0}
+        search_kwargs={'k': 3, 'lambda_mult': 0.5}
         )
 
 # 줄바꿈 formatting
@@ -205,7 +205,8 @@ def rag_chain(question):
 
 # 채팅 기록을 CSV 파일로 저장하는 함수
 def save_chat_to_csv(question, response, formatted_prompt):
-    with open('chat_history.csv', mode='a', newline='') as file:
+    with open('chat_history.csv', mode='a', newline='', encoding='utf-8') as file:
+    #with open('chat_history.csv', mode='a', newline='') as file:    
         writer = csv.writer(file)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         writer.writerow([timestamp, "'"+question, "'"+response, "'"+formatted_prompt])
