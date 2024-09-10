@@ -83,8 +83,8 @@ class LlmClovaStudio(LLM):
 
         sys_prompt = """
         당신은 AK아이에스의 사내 규정, 정책, 복리후생, 업무 가이드 등에 대해 답변하는 역할을 맡고 있습니다
-        - Context에 있는 정보만 사용해 답변하며, 추측하거나 추가 정보 제공 금지
-        - 답변은 간결하고 명확하게, 핵심 정보만 전달
+        - Context 내에서만 답하며, 추측하거나 추가 정보 제공 금지
+        - 질문에 대해 간결하고 명확하게 핵심 정보만 전달, 공감 표현은 가능
         - 감사, 칭찬에 대한 답변은 '감사합니다!'로만 응답하세요. 추가 설명 금지
         - Context에 정보가 없으면 '잘 모르겠습니다'라고 답변
         """
@@ -106,7 +106,7 @@ class LlmClovaStudio(LLM):
         }
         # API 요청
         response = requests.post(
-            self.host + "/testapp/v1/chat-completions/HCX-DASH-001",  # 본인이 finetunning 한 API 경로 , 일반 HCX03써도 무관합니다
+            self.host + "/testapp/v1/chat-completions/HCX-003",  # 본인이 finetunning 한 API 경로 , 일반 HCX03써도 무관합니다
             headers=headers,
             json=request_data,
             stream=True
@@ -129,8 +129,8 @@ llm = LlmClovaStudio(
     host='https://clovastudio.stream.ntruss.com',
     api_key='NTA0MjU2MWZlZTcxNDJiY6+5UNhJXWh3gqmFLbiMpde7ehpEJAFPwFUIey9lGc0S',
     api_key_primary_val='VhkfehtF14qpXmZPIA6VRw6x1c1eDCXp3P6BfbrG',
-    request_id='1e8ac996-b6e9-45f9-a64f-a64e37a029cf' #HCX-DASH-001
-    #request_id='b9288b57-8e12-45cc-b378-49cc13d8dbb6' #HCX-003
+    #request_id='1e8ac996-b6e9-45f9-a64f-a64e37a029cf' #HCX-DASH-001
+    request_id='b9288b57-8e12-45cc-b378-49cc13d8dbb6' #HCX-003
 )
 
 # -
@@ -175,12 +175,15 @@ def retrieve_docs(text, model_index=0):
         vectorstore = Chroma(persist_directory=vectorstore_path, embedding_function=embeddings)
     else:
         docs = [Document(page_content=text)]
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=50)
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=100)
         splits = text_splitter.split_documents(docs)
         vectorstore = Chroma.from_documents(splits, embeddings, persist_directory=vectorstore_path)
         vectorstore.persist()
 
-    return vectorstore.as_retriever()
+    return vectorstore.as_retriever(
+        search_type='mmr',
+        search_kwargs={'k': 3, 'lambda_mult': 0.5}
+        )
 
 # 줄바꿈 formatting
 def format_docs(docs):
@@ -202,7 +205,8 @@ def rag_chain(question):
 
 # 채팅 기록을 CSV 파일로 저장하는 함수
 def save_chat_to_csv(question, response, formatted_prompt):
-    with open('chat_history.csv', mode='a', newline='') as file:
+    with open('chat_history.csv', mode='a', newline='', encoding='utf-8') as file:
+    #with open('chat_history.csv', mode='a', newline='') as file:    
         writer = csv.writer(file)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         writer.writerow([timestamp, "'"+question, "'"+response, "'"+formatted_prompt])
@@ -215,9 +219,10 @@ if __name__ == "__main__":
         st.chat_message(msg["role"]).write(msg["content"])
 
     if prompt := st.chat_input():
+        prompt=prompt[:100]
         st.session_state.messages.append({"role": "user", "content": prompt})
         st.chat_message("user").write(prompt)
-        with st.spinner('답을 찾는 중입니다...'):
+        with st.spinner(''):
             msg = rag_chain(prompt)
         st.session_state.messages.append({"role": "assistant", "content": msg})
         st.chat_message("assistant").write(msg)
