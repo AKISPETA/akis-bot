@@ -4,7 +4,7 @@ import requests
 import streamlit as st
 import pandas as pd
 import csv
-import pdfplumber
+#import pdfplumber
 #import ollama
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
