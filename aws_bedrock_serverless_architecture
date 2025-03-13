@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="페이지-1" id="Ia_6N5uCbX87kCRQU7Pk">
-    <mxGraphModel dx="2049" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -864,7 +864,7 @@
           <mxGeometry y="72" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1kx4pAsn8ccBurx5HyLr-315" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="2902.75" y="2762" width="90" height="111" as="geometry" />
+          <mxGeometry x="2903.75" y="2762" width="90" height="111" as="geometry" />
         </mxCell>
         <mxCell id="1kx4pAsn8ccBurx5HyLr-316" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" parent="1kx4pAsn8ccBurx5HyLr-315" vertex="1">
           <mxGeometry x="6" width="78" height="78" as="geometry" />
@@ -1409,6 +1409,45 @@
         </mxCell>
         <mxCell id="v5y2z5dLoqnHRc5250TP-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/8/8a/Claude_AI_logo.svg;clipPath=inset(0% 77% 0% 0%);" vertex="1" parent="v5y2z5dLoqnHRc5250TP-16">
           <mxGeometry x="42.567647058823525" y="77.5" width="121.29" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-23" value="AWS CloudFront" style="shape=mxgraph.aws4.cloudfront;fillColor=#ffffff;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4490" y="2455.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-24" value="AWS WAF" style="shape=mxgraph.aws4.waf;fillColor=#ffffff;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4610" y="2455.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-25" value="AWS S3 (Static Website)" style="shape=mxgraph.aws4.s3;fillColor=#ffffff;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4370" y="2605.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-26" value="AWS API Gateway" style="shape=mxgraph.aws4.api_gateway;fillColor=#ffffff;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4610" y="2605.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-27" value="AWS Lambda" style="shape=mxgraph.aws4.lambda;fillColor=#ffffff;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4610" y="2755.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-28" value="AWS DynamoDB" style="shape=mxgraph.aws4.dynamodb;fillColor=#ffffff;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4610" y="2905.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-29" value="AWS Cognito" style="shape=mxgraph.aws4.cognito;fillColor=#ffffff;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4770" y="2605.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-30" style="labelBackgroundColor=default;" edge="1" parent="1" source="v5y2z5dLoqnHRc5250TP-23" target="v5y2z5dLoqnHRc5250TP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-31" style="labelBackgroundColor=default;" edge="1" parent="1" source="v5y2z5dLoqnHRc5250TP-23" target="v5y2z5dLoqnHRc5250TP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-32" style="labelBackgroundColor=default;" edge="1" parent="1" source="v5y2z5dLoqnHRc5250TP-24" target="v5y2z5dLoqnHRc5250TP-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-33" style="labelBackgroundColor=default;" edge="1" parent="1" source="v5y2z5dLoqnHRc5250TP-26" target="v5y2z5dLoqnHRc5250TP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-34" style="labelBackgroundColor=default;" edge="1" parent="1" source="v5y2z5dLoqnHRc5250TP-27" target="v5y2z5dLoqnHRc5250TP-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5y2z5dLoqnHRc5250TP-35" style="labelBackgroundColor=default;" edge="1" parent="1" source="v5y2z5dLoqnHRc5250TP-29" target="v5y2z5dLoqnHRc5250TP-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
