@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CctLjnHzRsmFx-A1T08L-154" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1476.93" y="7200" width="419.17" height="667" as="geometry" />
+          <mxGeometry x="1476.93" y="7200" width="419.17" height="840" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-153" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D1D1D1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1498.83" y="7270" width="380.67" height="200" as="geometry" />
@@ -1498,10 +1498,7 @@
           <mxGeometry x="457.27500000000003" y="7360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-175" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D1D1D1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1496.37" y="7515.25" width="380.67" height="204.75" as="geometry" />
-        </mxCell>
-        <mxCell id="CctLjnHzRsmFx-A1T08L-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1" source="CctLjnHzRsmFx-A1T08L-111" target="CctLjnHzRsmFx-A1T08L-129">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1496.37" y="7487.63" width="380.67" height="204.75" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-111" value="Azure OpenAI Service" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/ai_machine_learning/Azure_OpenAI.svg;" vertex="1" parent="1">
           <mxGeometry x="2059.2799999999997" y="7930" width="70" height="70" as="geometry" />
@@ -1533,16 +1530,16 @@
         <mxCell id="CctLjnHzRsmFx-A1T08L-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1" source="CctLjnHzRsmFx-A1T08L-129" target="CctLjnHzRsmFx-A1T08L-130">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1951.51" y="7633" />
-              <mxPoint x="1951.51" y="7520" />
+              <mxPoint x="2010" y="7571" />
+              <mxPoint x="2010" y="7571" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1" source="CctLjnHzRsmFx-A1T08L-129" target="CctLjnHzRsmFx-A1T08L-131">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1951.51" y="7633" />
-              <mxPoint x="1951.51" y="7776" />
+              <mxPoint x="1951" y="7571" />
+              <mxPoint x="1951" y="7776" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1550,7 +1547,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-130" value="Azure CosmosDB&lt;div&gt;Conversation log&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
-          <mxGeometry x="2049.28" y="7480" width="90" height="90" as="geometry" />
+          <mxGeometry x="2049.4300000000003" y="7530.19" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1" source="CctLjnHzRsmFx-A1T08L-131" target="CctLjnHzRsmFx-A1T08L-133">
           <mxGeometry relative="1" as="geometry" />
@@ -1558,8 +1555,10 @@
         <mxCell id="CctLjnHzRsmFx-A1T08L-131" value="Azure Cache for Redis" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1">
           <mxGeometry x="2042.66" y="7730.25" width="113.23" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="CctLjnHzRsmFx-A1T08L-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="CctLjnHzRsmFx-A1T08L-132" target="CctLjnHzRsmFx-A1T08L-138">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="CctLjnHzRsmFx-A1T08L-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" target="CctLjnHzRsmFx-A1T08L-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2089.727272727272" y="7069.83" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-132" value="Azure&amp;nbsp;&lt;div&gt;Container&amp;nbsp;&lt;/div&gt;&lt;div&gt;Registry&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/containers/Container_Registries.svg;pointerEvents=0;verticalAlign=top;fontFamily=Helvetica;fontColor=default;fillColor=none;gradientColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2045.18" y="6970" width="89" height="79.83" as="geometry" />
@@ -1575,7 +1574,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-138" value="Azure Pipeline" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/mscae/Azure_Pipelines.svg;" vertex="1" parent="1">
-          <mxGeometry x="2049.43" y="7179.5" width="80.5" height="80.5" as="geometry" />
+          <mxGeometry x="2049.43" y="7199.5" width="80.5" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1" source="CctLjnHzRsmFx-A1T08L-141" target="CctLjnHzRsmFx-A1T08L-128">
           <mxGeometry relative="1" as="geometry" />
@@ -1590,10 +1589,10 @@
           <mxGeometry x="1860.48" y="7180" width="49.41" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-157" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1026.7800000000002" y="7200" width="419.17" height="667" as="geometry" />
+          <mxGeometry x="1026.78" y="7200" width="419.17" height="840" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-158" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D1D1D1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1050.46" y="7270" width="380.67" height="580" as="geometry" />
+          <mxGeometry x="1050.46" y="7270" width="380.67" height="650" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-159" value="Application Gateway VNet" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=14;image=img/lib/azure2/networking/Subnet.svg;labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingLeft=3;" vertex="1" parent="1">
           <mxGeometry x="1037.08" y="7210" width="84.34" height="50.5" as="geometry" />
@@ -1617,7 +1616,7 @@
           <mxGeometry x="1409.27" y="7180" width="49" height="59.5" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-168" value="Log Analytics Workspaces" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/analytics/Log_Analytics_Workspaces.svg;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="7950" width="74.18" height="74.18" as="geometry" />
+          <mxGeometry x="1430" y="8002" width="74.18" height="74.18" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1" source="CctLjnHzRsmFx-A1T08L-116" target="CctLjnHzRsmFx-A1T08L-129">
           <mxGeometry relative="1" as="geometry" />
@@ -1626,10 +1625,29 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-129" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Azure Container Apps&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Web API - Backend&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1647.67" y="7557.81" width="83.33" height="80.88" as="geometry" />
+          <mxGeometry x="1647.67" y="7530.1900000000005" width="83.33" height="80.88" as="geometry" />
+        </mxCell>
+        <mxCell id="CctLjnHzRsmFx-A1T08L-176" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D1D1D1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1496.35" y="7710" width="380.67" height="204.75" as="geometry" />
+        </mxCell>
+        <mxCell id="CctLjnHzRsmFx-A1T08L-177" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Azure Container Apps&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Agent - MCP Server&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1647.65" y="7752.56" width="83.33" height="80.88" as="geometry" />
+        </mxCell>
+        <mxCell id="CctLjnHzRsmFx-A1T08L-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1" source="CctLjnHzRsmFx-A1T08L-111" target="CctLjnHzRsmFx-A1T08L-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2059" y="7965" as="sourcePoint" />
+            <mxPoint x="1689" y="7611" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1950" y="7965" />
+              <mxPoint x="1950" y="7571" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-152" value="Azure Container App&amp;nbsp;&lt;div&gt;Environment&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/other/Container_App_Environments.svg;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1799.95" y="7757" width="67" height="67" as="geometry" />
+          <mxGeometry x="1790.18" y="7925" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CctLjnHzRsmFx-A1T08L-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CctLjnHzRsmFx-A1T08L-129" target="CctLjnHzRsmFx-A1T08L-177">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
