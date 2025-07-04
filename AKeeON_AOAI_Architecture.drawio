@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.2.0">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
-    <mxGraphModel dx="3204" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2505" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1691,7 +1691,7 @@
           <mxGeometry x="-100" y="8910.06" width="50" height="29.94" as="geometry" />
         </mxCell>
         <mxCell id="jkcSs4sPvHk40_zy7mJ6-28" value="" style="group;spacingLeft=0;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;fontSize=14;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="9130" width="60" height="74" as="geometry" />
+          <mxGeometry x="40" y="9144.25" width="60" height="74" as="geometry" />
         </mxCell>
         <mxCell id="jkcSs4sPvHk40_zy7mJ6-29" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Web_Application_Firewall_Policies_WAF.svg;" vertex="1" parent="jkcSs4sPvHk40_zy7mJ6-28">
           <mxGeometry x="21.50943396226415" width="38.490566037735846" height="38.490566037735846" as="geometry" />
