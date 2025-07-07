@@ -1222,7 +1222,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#DBDBDB;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="947.4499999999999" y="6113" width="278" height="663" as="geometry" />
+          <mxGeometry x="947.45" y="6113" width="278" height="527" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-47" value="Monitoring" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#DBDBDB;fontColor=#333333;strokeWidth=2;fontSize=14;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1440.18" y="6356" width="119.82" height="170" as="geometry" />
@@ -1826,17 +1826,14 @@
             <mxPoint x="600" y="5861" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8gDameO5t58OoYVxMDH9-41" value="Dedicated Subnet -/27" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D1D1D1;fontSize=14;spacingBottom=400;" vertex="1" parent="1">
-          <mxGeometry x="990.5" y="6300" width="199.5" height="460" as="geometry" />
+        <mxCell id="8gDameO5t58OoYVxMDH9-41" value="Dedicated Subnet -/27" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D1D1D1;fontSize=14;spacingBottom=300;" vertex="1" parent="1">
+          <mxGeometry x="990.5" y="6300" width="199.5" height="330" as="geometry" />
         </mxCell>
         <mxCell id="8gDameO5t58OoYVxMDH9-6" value="Frontend Container" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1058.8999999999999" y="6356" width="68" height="66" as="geometry" />
         </mxCell>
         <mxCell id="8gDameO5t58OoYVxMDH9-7" value="&lt;div&gt;Backend Container&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1058.8999999999999" y="6486" width="68" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="8gDameO5t58OoYVxMDH9-8" value="Agent Container" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1055.6299999999999" y="6616" width="68" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
