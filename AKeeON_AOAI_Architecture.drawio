@@ -1153,9 +1153,6 @@
         <mxCell id="CctLjnHzRsmFx-A1T08L-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" parent="1" source="CctLjnHzRsmFx-A1T08L-23" target="CctLjnHzRsmFx-A1T08L-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CctLjnHzRsmFx-A1T08L-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" parent="1" source="CctLjnHzRsmFx-A1T08L-23" target="CctLjnHzRsmFx-A1T08L-38" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" parent="1" source="CctLjnHzRsmFx-A1T08L-23" target="CctLjnHzRsmFx-A1T08L-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1205,16 +1202,6 @@
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-32" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="1" vertex="1">
           <mxGeometry x="2297.24" y="5656.5" width="32.94" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="CctLjnHzRsmFx-A1T08L-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" parent="1" source="CctLjnHzRsmFx-A1T08L-38" target="CctLjnHzRsmFx-A1T08L-62" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2222.4100000000003" y="6113" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CctLjnHzRsmFx-A1T08L-38" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D1D1D1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2142.9100000000003" y="5889" width="158.5" height="94" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" parent="1" source="CctLjnHzRsmFx-A1T08L-40" target="CctLjnHzRsmFx-A1T08L-57" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1283,9 +1270,6 @@
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-74" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;AI Search private&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;endpoint&lt;/div&gt;&#xa;&#xa;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Private_Link.svg;pointerEvents=0;verticalAlign=top;fontFamily=Helvetica;fontColor=default;fillColor=none;gradientColor=none;labelBackgroundColor=none;spacingTop=-22;" parent="1" vertex="1">
           <mxGeometry x="1831.6200000000001" y="5893" width="61.09" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="CctLjnHzRsmFx-A1T08L-85" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Container Registry&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;private endpoint&lt;/div&gt;&#xa;&#xa;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Private_Link.svg;pointerEvents=0;verticalAlign=top;fontFamily=Helvetica;fontColor=default;fillColor=none;gradientColor=none;spacingTop=-22;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2192.77" y="5893" width="61.09" height="56" as="geometry" />
         </mxCell>
         <mxCell id="CctLjnHzRsmFx-A1T08L-98" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="213.14000000000004" y="7223" width="419.17" height="667" as="geometry" />
