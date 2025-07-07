@@ -1830,10 +1830,10 @@
           <mxGeometry x="990.5" y="6300" width="199.5" height="330" as="geometry" />
         </mxCell>
         <mxCell id="8gDameO5t58OoYVxMDH9-6" value="Frontend Container" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1058.8999999999999" y="6356" width="68" height="66" as="geometry" />
+          <mxGeometry x="1057.32" y="6367" width="68" height="66" as="geometry" />
         </mxCell>
         <mxCell id="8gDameO5t58OoYVxMDH9-7" value="&lt;div&gt;Backend Container&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1058.8999999999999" y="6486" width="68" height="66" as="geometry" />
+          <mxGeometry x="1057.32" y="6497" width="68" height="66" as="geometry" />
         </mxCell>
         <mxCell id="8gDameO5t58OoYVxMDH9-43" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Security_Groups.svg;" vertex="1" parent="1">
           <mxGeometry x="1205.74" y="6099" width="32.94" height="40" as="geometry" />
