@@ -1736,18 +1736,6 @@
         <mxCell id="8gDameO5t58OoYVxMDH9-2" value="ACA Subnet" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=14;image=img/lib/azure2/networking/Subnet.svg;labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingLeft=3;" vertex="1" parent="1">
           <mxGeometry x="962.43" y="6133" width="50.1" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8gDameO5t58OoYVxMDH9-3" value="Dedicated Subnet -/27" style="rounded=0;whiteSpace=wrap;html=1;pointerEvents=0;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="986.93" y="6306" width="198.52" height="440" as="geometry" />
-        </mxCell>
-        <mxCell id="8gDameO5t58OoYVxMDH9-6" value="Frontend Container" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1058.8999999999999" y="6356" width="68" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="8gDameO5t58OoYVxMDH9-7" value="&lt;div&gt;Backend Container&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1058.8999999999999" y="6486" width="68" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="8gDameO5t58OoYVxMDH9-8" value="Agent Container" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1055.6299999999999" y="6616" width="68" height="66" as="geometry" />
-        </mxCell>
         <mxCell id="8gDameO5t58OoYVxMDH9-9" value="Log Analytics Workspaces" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/analytics/Log_Analytics_Workspaces.svg;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1329.43" y="6399" width="64" height="64" as="geometry" />
         </mxCell>
@@ -1845,6 +1833,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="5861" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8gDameO5t58OoYVxMDH9-41" value="Dedicated Subnet -/27" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D1D1D1;fontSize=14;spacingBottom=400;" vertex="1" parent="1">
+          <mxGeometry x="990.5" y="6300" width="199.5" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="8gDameO5t58OoYVxMDH9-6" value="Frontend Container" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1058.8999999999999" y="6356" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8gDameO5t58OoYVxMDH9-7" value="&lt;div&gt;Backend Container&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1058.8999999999999" y="6486" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8gDameO5t58OoYVxMDH9-8" value="Agent Container" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1055.6299999999999" y="6616" width="68" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
