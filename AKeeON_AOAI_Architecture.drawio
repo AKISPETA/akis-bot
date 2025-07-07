@@ -1723,7 +1723,7 @@
           <mxGeometry x="-157.5" y="8662.86" width="35" height="73" as="geometry" />
         </mxCell>
         <mxCell id="8gDameO5t58OoYVxMDH9-1" value="Azure Container App&amp;nbsp;&lt;div&gt;Environment&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Container_App_Environments.svg;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1001.1999999999999" y="6176" width="68" height="68" as="geometry" />
+          <mxGeometry x="982.4599999999999" y="6176" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="8gDameO5t58OoYVxMDH9-2" value="ACA Subnet" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=14;image=img/lib/azure2/networking/Subnet.svg;labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingLeft=3;" vertex="1" parent="1">
           <mxGeometry x="962.43" y="6133" width="50.1" height="30" as="geometry" />
