@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram id="7gcUSTIZ7YSJ5vT40chW" name="Page-1">
-    <mxGraphModel dx="3546" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="8299" dy="3715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -803,6 +803,11 @@
         <mxCell id="TMsUDo7SUI-CBWdCIvHS-89" value="&lt;span style=&quot;font-size: 14px; text-wrap-mode: nowrap;&quot;&gt;Other&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-wrap-mode: nowrap;&quot;&gt;Processes&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="TMsUDo7SUI-CBWdCIvHS-90">
           <mxGeometry x="193" y="116" width="84" height="60" as="geometry" />
         </mxCell>
+        <UserObject label="&lt;img src=&quot;https://sdmntprwestus3.oaiusercontent.com/files/00000000-5498-61fd-afd1-cd09079e2f41/raw?se=2025-07-24T12%3A07%3A02Z&amp;amp;sp=r&amp;amp;sv=2024-08-04&amp;amp;sr=b&amp;amp;scid=b85c00c6-d3be-546a-8f92-60112515aa82&amp;amp;skoid=864daabb-d06a-46b3-a747-d35075313a83&amp;amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;amp;skt=2025-07-23T19%3A48%3A30Z&amp;amp;ske=2025-07-24T19%3A48%3A30Z&amp;amp;sks=b&amp;amp;skv=2024-08-04&amp;amp;sig=CPwykkvQ%2Ba5ct5%2BZA4/tRg5kRC4QZUh4X7ZeouhFHxQ%3D&quot;&gt;" link="&lt;img src=&quot;https://sdmntprwestus3.oaiusercontent.com/files/00000000-5498-61fd-afd1-cd09079e2f41/raw?se=2025-07-24T12%3A07%3A02Z&amp;amp;sp=r&amp;amp;sv=2024-08-04&amp;amp;sr=b&amp;amp;scid=b85c00c6-d3be-546a-8f92-60112515aa82&amp;amp;skoid=864daabb-d06a-46b3-a747-d35075313a83&amp;amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;amp;skt=2025-07-23T19%3A48%3A30Z&amp;amp;ske=2025-07-24T19%3A48%3A30Z&amp;amp;sks=b&amp;amp;skv=2024-08-04&amp;amp;sig=CPwykkvQ%2Ba5ct5%2BZA4/tRg5kRC4QZUh4X7ZeouhFHxQ%3D&quot;&gt;" id="TMsUDo7SUI-CBWdCIvHS-96">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-886.46" y="5810" width="30" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
