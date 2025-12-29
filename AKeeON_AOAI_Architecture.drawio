@@ -2216,9 +2216,6 @@
         <mxCell id="LPMHBF1D8mMjMgmCajZp-530" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/storage/Storage_Accounts.svg;fontStyle=0;fontColor=default;" value="Blob Storage" vertex="1">
           <mxGeometry height="48" width="60" x="3740.1200000000013" y="9793.000000000002" as="geometry" />
         </mxCell>
-        <mxCell id="LPMHBF1D8mMjMgmCajZp-682" edge="1" parent="1" source="LPMHBF1D8mMjMgmCajZp-531" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LPMHBF1D8mMjMgmCajZp-1" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="LPMHBF1D8mMjMgmCajZp-531" parent="1" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=18;image=img/lib/azure2/general/Resource_Groups.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;fontStyle=1;labelBackgroundColor=none;" value="애경스페셜티 resource group" vertex="1">
           <mxGeometry height="50" width="53.13" x="2865.5400000000004" y="9260.000000000002" as="geometry" />
         </mxCell>
