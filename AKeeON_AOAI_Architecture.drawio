@@ -1972,7 +1972,7 @@
             <mxPoint x="2465.76" y="9780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LPMHBF1D8mMjMgmCajZp-48" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;">
+        <mxCell id="LPMHBF1D8mMjMgmCajZp-48" edge="1" parent="1" source="LPMHBF1D8mMjMgmCajZp-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2581.62" y="9904.62" as="sourcePoint" />
             <mxPoint x="2464.62" y="9904.62" as="targetPoint" />
@@ -2035,7 +2035,7 @@
           <mxGeometry height="30" width="30" x="2151.41" y="9369.5" as="geometry" />
         </mxCell>
         <mxCell id="LPMHBF1D8mMjMgmCajZp-61" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/storage/Storage_Accounts.svg;fontStyle=0;fontColor=default;" value="Blob Storage" vertex="1">
-          <mxGeometry height="48" width="60" x="2577.96" y="9884.5" as="geometry" />
+          <mxGeometry height="48" width="60" x="2577.96" y="9880.5" as="geometry" />
         </mxCell>
         <mxCell id="LPMHBF1D8mMjMgmCajZp-62" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" value="Firewall&lt;div&gt;(Third-party)&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="40" x="1385.1699999999998" y="10132.36" as="geometry" />
